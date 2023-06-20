@@ -2,6 +2,9 @@
 
 Semi-easy to set up live translation overlay for streaming
 
+![image](https://github.com/g-Clef-Cannon/Stream-Live-Translations/assets/137208498/d2d1413c-00d4-4ac5-b293-e3c65e448606)
+
+
 Demo Video:
 https://www.youtube.com/watch?v=O3A8UOTHyxI
 
