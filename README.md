@@ -11,10 +11,11 @@ https://www.youtube.com/watch?v=O3A8UOTHyxI
 Prereqs:
   1. Modern version of chrome browser (we are using the integrated speech to text that is built in, of decent quality, and most importantly, free)
   2. Azure account, with a translate resource set up in cognitive services. (ask chat gpt to help you do this if need be)
+  3. python 3 installed (we use this to host a local webserver, as if you just ran the html page directly chrome cannot request use of your mic properly)
 
 Initial setup:
   1. open translate.js and fill in region and your azure translate api key
-  2. run the run-translation-service.bat, which will start a local web server running the page we are using to do the speech to text and that sends off the translations, and then shows them
+  2. run the run-translation-service.bat, which will start a local web server via python running the page we are using to do the speech to text and that sends off the translations, and then shows them
   3. once chrome is open, it will ask permission to use your audio input device- make sure chrome is set in the chrome settings to use the right one!
   4. at this point, everything should be running- chrome will display anything you say and then send it off to be translated once it thinks you are done with the current sentance.
   ![image](https://github.com/g-Clef-Cannon/Stream-Live-Translations/assets/137208498/f17c2b40-1452-4f7e-9d47-e4ce93202b65)
